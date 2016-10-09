@@ -1,0 +1,15 @@
+ <h2 class="contact__title contact__title-general"> Давайте работать вместе </h2>
+
+<form id="formContact" class="form contact__form" action="/email_send.php" method="post"
+                    autocomplete="off" data-error-mes="это поле не может быть пустым"
+                    data-email-error-mes="неверно набран email">
+
+<label for="formContactName")> Имя </label>
+<input type="text" name="name" required id="formContactName" placeholder="Имя"> 
+  
+  <label for="formContactEmail")> E-mail </label>
+<input type="email" name="email" required id="formContactEmail" placeholder="E-mail">         
+
+<button class="button btn btn_send" type="submit"> Отправить </button>            
+	
+</form>

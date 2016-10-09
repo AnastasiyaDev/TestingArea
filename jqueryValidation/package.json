@@ -1,0 +1,34 @@
+{
+  "name": "jquery-validation",
+  "version": "1.0.0",
+  "description": "testing work jquery-validation",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "NODE_ENV=production webpack -p",
+    "dev": "NODE_ENV=development webpack-dev-server --hot --inline --progress --port 8080",
+    "webpack": "NODE_ENV=development webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.23.1",
+    "eslint": "~3.3.1",
+    "file": "^0.2.2",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "jquery": "^3.1.0",
+    "jquery-validation": "1.15.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "php-loader": "^0.2.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-svgstore-plugin": "^3.0.3"
+  }
+}
