@@ -18,6 +18,10 @@ module.exports = {
         modulesDirectories: ['node_modules']
     },
 
+    externals: {
+        "jquery": "jQuery"
+    },
+
     module: {
         loaders: [{
             test: /\.less$/,
@@ -58,12 +62,6 @@ module.exports = {
         }),
         new webpack.DefinePlugin({
             NODE_ENV: JSON.stringify(NODE_ENV)
-        }),
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery',
-            'window.jQuery': 'jquery'
         })
-
     ]
 };
